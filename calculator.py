@@ -4,22 +4,12 @@ import tkinter.font as tkFont
 
 window = Tk()
 
-
-
-
-
-window.geometry("320x410")
+window.geometry("295x445")
 window.resizable(0,0)
 window.title("Sahil's Calculator")
 window.configure(padx=6,pady=10,bg="#ffffff", borderwidth=0, relief="flat")
 window.iconbitmap("calculator.ico")
 window.wm_attributes("-alpha",0.945)
-window.minsize(295,445)
-window.maxsize(295,445)
-
-
-
-
 
 fontStyle = tkFont.Font(family="comic sans ms", size=20, weight="bold")
 fontnumber = tkFont.Font(family="comic sans ms", size=12, weight='normal')
